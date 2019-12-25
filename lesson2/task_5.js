@@ -12,16 +12,16 @@ function mathOperation(arg1, arg2, operation){
     let result = 0;
     switch(operation){
         case "+":
-            result = Sum(a,b);
+            result = Sum(arg1,arg2);
             break;
         case "-":
-            result = Subtraction(a, b);
+            result = Subtraction(arg1, arg2);
             break;
         case "*":
-            result = Multiplication(a, b);
+            result = Multiplication(arg1, arg2);
             break;
         case "/":
-            result = Division(a, b);
+            result = Division(arg1, arg2);
         default:
             throw new Error("Введите одну из операций: +,-,/,*");
     }
