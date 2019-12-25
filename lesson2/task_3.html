@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task_3</title>
+</head>
+<body>
+    <script>
+        'use strict';
+        let a = Number(prompt("Введите целочисленную переменную a:"));
+        let b = Number(prompt("Введите целочисленную переменную b:"));
+        if(a > 0 && b > 0){
+            alert(`a и b положительные, a - b = ${a - b}, b - a = ${b - a}`); 
+        }
+        else if(a < 0 && b < 0){
+            alert(`а и b отрицательные, их произведение равно ${a * b}`);
+        }
+        else if((a < 0 && b > 0) || (a > 0 && b < 0)){
+            alert(`a и b разных знаков, их сумма равна ${a + b}`)
+        }
+    </script>
+</body>
+</html>

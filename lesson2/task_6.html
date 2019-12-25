@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task_6</title>
+</head>
+<body>
+    <script>
+        let num = Number(prompt("Количество денег, которое вы хотите положить на счет в банке: "));
+        if(!isNaN(num)){
+            checkNum = Math.round(num / 10) % 10; // кол-во десятков
+            switch(checkNum == 1 ? 0 : num % 10){ // если десяток 1 меняем на 0(например, 21 или 31 рубль, но 11 рублей), иначе смотрим посл цифру
+                case 1:
+                    alert(`Ваша сумма в ${num} рубль успешно зачислена.`);
+                    break;
+                case 2:
+                case 3:
+                case 4:
+                    alert(`Ваша сумма в ${num} рубля успешно зачислена.`);
+                    break;
+                default:
+                    alert(`Ваша сумма в ${num} рублей успешно зачислена.`);
+            }
+        }
+        else{
+            alert("Ошибка: введите число.");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task_5</title>
+</head>
+<body>
+    <script src="task_4.js"></script> <!-- объявления арифметических функций из задания 4(+,-,/,*)-->
+    <script src="task_5.js"></script> <!-- объявление функции mathOperation -->
+    <script>
+        let a = Number(prompt("Введите чило a: "));
+        let b = Number(prompt("Введите чило b: "));
+        let op = String(prompt("Введите название операции (+,-,/,*): "));
+        alert(`Результат операции: ${mathOperation(a,b,op)}`);
+    </script>
+</body>
+</html>
