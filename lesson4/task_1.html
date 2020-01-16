@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task_1</title>
+</head>
+<body>
+    <script>
+        'use strict';
+        function integerObj(num) {
+            let obj = {};
+            if(Number.isInteger(num) && num >=0 && num <= 999) {
+                obj.units = num % 100 % 10;
+                obj.tens = (num % 100 - obj.units) / 10;
+                obj.hundreds = (num - obj.tens * 10 - obj.units) / 100;  // можно так : this.hundreds = Number.parseInt(num / 100);
+            }
+            else {
+                console.log('Ошибка: введите число от в диапазоне [0,999]. Объект пустой.');
+            }
+            return obj;
+        }
+        console.log(integerObj(45));
+    </script>
+</body>
+</html>
