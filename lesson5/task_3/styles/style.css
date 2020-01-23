@@ -1,0 +1,20 @@
+
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.blackSquare {
+    background: black;
+}
+
+.title{
+    border: none;
+    text-align: center;
+}

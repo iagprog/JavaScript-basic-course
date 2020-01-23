@@ -1,0 +1,25 @@
+.container{
+    margin: 0 auto;
+    min-width: 550px;
+}
+.productPhoto {
+        width: 150px;
+        height: 100px;
+}
+
+.product {
+    float: left;
+    padding-right: 30px;
+    width: 150px;
+    height: 155px;
+}
+
+.desc {
+    display: none;
+    width: 150px;
+    height: 100px;
+}
+
+button {
+    margin-top: 10px;
+}
