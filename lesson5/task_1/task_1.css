@@ -1,0 +1,31 @@
+.modalWindow {
+    display: none;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: lightgrey;
+    width: 180px;
+    height: 120px;
+    border: 2px solid black;
+}
+
+.closeButton {
+    position: absolute;
+    width: 15px;
+    text-align: center;
+    right: 5%;
+    top: 5%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.showButton {
+   margin-left: 50px;
+}
+
+.modalText{
+    position: absolute;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 20%;
+}
