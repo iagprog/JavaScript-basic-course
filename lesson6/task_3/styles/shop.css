@@ -1,0 +1,69 @@
+.container {
+    margin: 0 auto;
+    min-width: 1000px;
+}
+ 
+.padding-site {
+    padding-left: 200px;
+    padding-right: 200px;;
+}
+
+.productPhoto {
+    width: 300px;
+    height: 200px;
+    border: 2px solid darkgray;
+}
+
+.product {
+    margin-top: 160px;
+    margin-right: 25px;
+    float: left;
+    width: 300px;
+    height: 220px;
+}
+
+.buyButton {
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: darkgrey;
+    font-size: large;
+}
+
+.basketButton {
+    position: absolute;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    margin-left: 850px;
+    margin-top: 20px;
+    font-size: large;
+    color: darkolivegreen;
+}
+
+.hiddenBasket {
+    position: absolute;
+    margin-left: 658px;
+    margin-top: 70px;
+    background-color:lightgrey;
+    border: 3px solid grey;
+    display: none;
+}
+
+.basket{
+    position: relative;
+    height: 100px;
+    width: 960px;
+    background-color: grey;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+td {
+    padding-right: 30px;
+}
+
